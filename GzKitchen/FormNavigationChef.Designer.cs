@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNavigationChef));
             this.panelNavBar = new System.Windows.Forms.Panel();
             this.panelChef = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.lblChefEmail = new System.Windows.Forms.Label();
             this.lblChefName = new System.Windows.Forms.Label();
             this.picBoxChef = new System.Windows.Forms.PictureBox();
@@ -41,9 +42,11 @@
             this.panelMenuToCook = new System.Windows.Forms.Panel();
             this.btnConfirmChanges = new System.Windows.Forms.Button();
             this.timerShowBtnConfirmChanges = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panelNavBar.SuspendLayout();
             this.panelChef.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxChef)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelNavBar
@@ -56,12 +59,22 @@
             // panelChef
             // 
             this.panelChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
+            this.panelChef.Controls.Add(this.button1);
             this.panelChef.Controls.Add(this.lblChefEmail);
             this.panelChef.Controls.Add(this.lblChefName);
             this.panelChef.Controls.Add(this.picBoxChef);
             this.panelChef.Cursor = System.Windows.Forms.Cursors.Default;
             resources.ApplyResources(this.panelChef, "panelChef");
             this.panelChef.Name = "panelChef";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblChefEmail
             // 
@@ -124,28 +137,36 @@
             this.timerShowBtnConfirmChanges.Interval = 10;
             this.timerShowBtnConfirmChanges.Tick += new System.EventHandler(this.timerShowBtnConfirmChanges_Tick);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.lblTableNo);
+            this.panel1.Controls.Add(this.btnConfirmChanges);
+            this.panel1.Controls.Add(this.lblMenuToCook);
+            this.panel1.Controls.Add(this.panelMenuToCook);
+            this.panel1.Controls.Add(this.comboOrderAndTable);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
             // FormNavigationChef
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
             this.ControlBox = false;
-            this.Controls.Add(this.btnConfirmChanges);
-            this.Controls.Add(this.panelMenuToCook);
-            this.Controls.Add(this.comboOrderAndTable);
-            this.Controls.Add(this.lblMenuToCook);
-            this.Controls.Add(this.lblTableNo);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelNavBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "FormNavigationChef";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormNavigationChef_FormClosed);
             this.Load += new System.EventHandler(this.FormNavigationChef_Load);
             this.panelNavBar.ResumeLayout(false);
             this.panelChef.ResumeLayout(false);
             this.panelChef.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxChef)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -162,5 +183,7 @@
         private System.Windows.Forms.Panel panelMenuToCook;
         private System.Windows.Forms.Button btnConfirmChanges;
         private System.Windows.Forms.Timer timerShowBtnConfirmChanges;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
