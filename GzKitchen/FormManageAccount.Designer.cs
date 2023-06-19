@@ -1,6 +1,6 @@
 ﻿namespace GzKitchen
 {
-    partial class FormManageTable
+    partial class FormManageAccount
     {
         /// <summary> 
         /// Required designer variable.

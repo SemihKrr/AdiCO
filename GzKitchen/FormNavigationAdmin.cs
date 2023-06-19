@@ -19,7 +19,7 @@ namespace GzKitchen
             Dock = DockStyle.Fill
         };
 
-        private UserControl formManageAccount = new FormManageAccount()
+        private UserControl FormManageAccount = new FormManageAccount()
         {
             Dock = DockStyle.Fill
         };
@@ -36,8 +36,8 @@ namespace GzKitchen
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
             LoadSideBar();
-            panelContent.Controls.Add(formManageAccount);
-            formManageAccount.Focus();
+            panelContent.Controls.Add(FormManageAccount);
+            FormManageAccount.Focus();
 
             LoadAdminInfo();
         }
@@ -68,8 +68,8 @@ namespace GzKitchen
             LoadSideBar();
 
             panelContent.Controls.Clear();
-            panelContent.Controls.Add(formManageAccount);
-            formManageAccount.Focus();
+            panelContent.Controls.Add(FormManageAccount);
+            FormManageAccount.Focus();
         }
 
         private void btnManageMenu_Click(object sender, EventArgs e)
