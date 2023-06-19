@@ -136,6 +136,7 @@
             this.Controls.Add(this.lblMenuToCook);
             this.Controls.Add(this.lblTableNo);
             this.Controls.Add(this.panelNavBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormNavigationChef";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormNavigationChef_FormClosed);

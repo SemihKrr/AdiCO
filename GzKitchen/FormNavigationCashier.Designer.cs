@@ -47,6 +47,7 @@
             this.picBoxSearch = new System.Windows.Forms.PictureBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblMenuList = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelNavBar.SuspendLayout();
             this.panelCashier.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCashier)).BeginInit();
@@ -67,6 +68,7 @@
             // panelCashier
             // 
             this.panelCashier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
+            this.panelCashier.Controls.Add(this.button1);
             this.panelCashier.Controls.Add(this.lblCashierEmail);
             this.panelCashier.Controls.Add(this.lblCashierName);
             this.panelCashier.Controls.Add(this.picBoxCashier);
@@ -186,11 +188,20 @@
             resources.ApplyResources(this.lblMenuList, "lblMenuList");
             this.lblMenuList.Name = "lblMenuList";
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormNavigationCashier
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            this.ControlBox = false;
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelPayment);
             this.Controls.Add(this.panelNavBar);
@@ -232,5 +243,6 @@
         private System.Windows.Forms.Label txtTotal;
         private System.Windows.Forms.Panel panelTotal;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Button button1;
     }
 }
