@@ -159,6 +159,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEditProfile.tr.resx">
+      <DependentUpon>FormEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.tr-CY.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
