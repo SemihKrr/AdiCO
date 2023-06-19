@@ -42,6 +42,9 @@
             this.lblManageMenu = new System.Windows.Forms.Label();
             this.panelContent = new System.Windows.Forms.Panel();
             this.panelSideBar = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnLogout = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblLogout = new System.Windows.Forms.Label();
@@ -53,6 +56,8 @@
             this.btnManageMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelSideBar.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.btnLogout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,12 +86,12 @@
             // 
             // panelAdmin
             // 
-            resources.ApplyResources(this.panelAdmin, "panelAdmin");
             this.panelAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
             this.panelAdmin.Controls.Add(this.lblAdminEmail);
             this.panelAdmin.Controls.Add(this.lblAdminName);
             this.panelAdmin.Controls.Add(this.picBoxAdmin);
             this.panelAdmin.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.panelAdmin, "panelAdmin");
             this.panelAdmin.Name = "panelAdmin";
             // 
             // lblAdminEmail
@@ -107,17 +112,17 @@
             // 
             // picBoxAdmin
             // 
-            resources.ApplyResources(this.picBoxAdmin, "picBoxAdmin");
             this.picBoxAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.picBoxAdmin, "picBoxAdmin");
             this.picBoxAdmin.Name = "picBoxAdmin";
             this.picBoxAdmin.TabStop = false;
             this.picBoxAdmin.Click += new System.EventHandler(this.picBoxAdmin_Click);
             // 
             // panelNavBar
             // 
-            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(83)))), ((int)(((byte)(32)))));
             this.panelNavBar.Controls.Add(this.panelAdmin);
+            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.Name = "panelNavBar";
             // 
             // btnManageMenu
@@ -149,18 +154,39 @@
             // 
             // panelSideBar
             // 
-            resources.ApplyResources(this.panelSideBar, "panelSideBar");
+            this.panelSideBar.Controls.Add(this.panel1);
             this.panelSideBar.Controls.Add(this.btnLogout);
             this.panelSideBar.Controls.Add(this.btnManageAccount);
             this.panelSideBar.Controls.Add(this.btnManageMenu);
+            resources.ApplyResources(this.panelSideBar, "panelSideBar");
             this.panelSideBar.Name = "panelSideBar";
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel1.Name = "panel1";
+            this.panel1.Tag = "btnSideBar-NotSelected";
+            // 
+            // pictureBox4
+            // 
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.TabStop = false;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
             // 
             // btnLogout
             // 
-            resources.ApplyResources(this.btnLogout, "btnLogout");
             this.btnLogout.Controls.Add(this.pictureBox1);
             this.btnLogout.Controls.Add(this.lblLogout);
             this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnLogout, "btnLogout");
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Tag = "btnSideBar-NotSelected";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
@@ -199,6 +225,8 @@
             this.btnManageMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panelSideBar.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.btnLogout.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -222,5 +250,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label1;
     }
 }

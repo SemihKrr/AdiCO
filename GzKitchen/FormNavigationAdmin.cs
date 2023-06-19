@@ -33,6 +33,8 @@ namespace GzKitchen
 
         private void FormNavigationAdmin_Load(object sender, EventArgs e)
         {
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
             LoadSideBar();
             panelContent.Controls.Add(formManageAccount);
             formManageAccount.Focus();

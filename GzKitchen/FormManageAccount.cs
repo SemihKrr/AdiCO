@@ -11,13 +11,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GzKitchen
 {
-    public partial class FormManageAccount : UserControl
+    public partial class FormManageTable : UserControl
     {
         private GzKitchenEntities db = new GzKitchenEntities();
         private int selectedID = 0;
         private string saveButtonState = "add";
 
-        public FormManageAccount()
+        public FormManageTable()
         {
             InitializeComponent();
         }

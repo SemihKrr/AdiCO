@@ -26,6 +26,8 @@ namespace GzKitchen
 
         private void FormNavigationChef_Load(object sender, EventArgs e)
         {
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
             LoadChefInfo();
             LoadComboOrderAndTable();
         }

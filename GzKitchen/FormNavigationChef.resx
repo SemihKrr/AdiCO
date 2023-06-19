@@ -117,7 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblChefEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblChefEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Italic</value>
+  </data>
+  <data name="lblChefEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 39</value>
+  </data>
+  <data name="lblChefEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 15</value>
+  </data>
+  <data name="lblChefEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblChefEmail.Text" xml:space="preserve">
+    <value>admin@gmail.com</value>
+  </data>
+  <data name="&gt;&gt;lblChefEmail.Name" xml:space="preserve">
+    <value>lblChefEmail</value>
+  </data>
+  <data name="&gt;&gt;lblChefEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChefEmail.Parent" xml:space="preserve">
+    <value>panelChef</value>
+  </data>
+  <data name="&gt;&gt;lblChefEmail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblChefName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblChefName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblChefName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="lblChefName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 24</value>
+  </data>
+  <data name="lblChefName.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblChefName.Text" xml:space="preserve">
+    <value>Gavriel</value>
+  </data>
+  <data name="&gt;&gt;lblChefName.Name" xml:space="preserve">
+    <value>lblChefName</value>
+  </data>
+  <data name="&gt;&gt;lblChefName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChefName.Parent" xml:space="preserve">
+    <value>panelChef</value>
+  </data>
+  <data name="&gt;&gt;lblChefName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="picBoxChef.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoCAYAAABNo9TkAAAABGdBTUEAALGPC/xhBQAAg6NJREFUeF7t
@@ -685,9 +746,229 @@
         eT8flZ9/YPP+14/jptF8XM3Hd4n6IUuSpJH0//7f/wf8rQ9MMCztbgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="picBoxChef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="picBoxChef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picBoxChef.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picBoxChef.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;picBoxChef.Name" xml:space="preserve">
+    <value>picBoxChef</value>
+  </data>
+  <data name="&gt;&gt;picBoxChef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picBoxChef.Parent" xml:space="preserve">
+    <value>panelChef</value>
+  </data>
+  <data name="&gt;&gt;picBoxChef.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelChef.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelChef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="panelChef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 70</value>
+  </data>
+  <data name="panelChef.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panelChef.Name" xml:space="preserve">
+    <value>panelChef</value>
+  </data>
+  <data name="&gt;&gt;panelChef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelChef.Parent" xml:space="preserve">
+    <value>panelNavBar</value>
+  </data>
+  <data name="&gt;&gt;panelChef.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelNavBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelNavBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelNavBar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="panelNavBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 94</value>
+  </data>
+  <data name="panelNavBar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.Name" xml:space="preserve">
+    <value>panelNavBar</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTableNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTableNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lblTableNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 110</value>
+  </data>
+  <data name="lblTableNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 16</value>
+  </data>
+  <data name="lblTableNo.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lblTableNo.Text" xml:space="preserve">
+    <value>Order ID and Table No :</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.Name" xml:space="preserve">
+    <value>lblTableNo</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboOrderAndTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 109</value>
+  </data>
+  <data name="comboOrderAndTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 21</value>
+  </data>
+  <data name="comboOrderAndTable.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboOrderAndTable.Name" xml:space="preserve">
+    <value>comboOrderAndTable</value>
+  </data>
+  <data name="&gt;&gt;comboOrderAndTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboOrderAndTable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboOrderAndTable.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblMenuToCook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMenuToCook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lblMenuToCook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 137</value>
+  </data>
+  <data name="lblMenuToCook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="lblMenuToCook.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lblMenuToCook.Text" xml:space="preserve">
+    <value>Menu to cook :</value>
+  </data>
+  <data name="&gt;&gt;lblMenuToCook.Name" xml:space="preserve">
+    <value>lblMenuToCook</value>
+  </data>
+  <data name="&gt;&gt;lblMenuToCook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMenuToCook.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMenuToCook.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelMenuToCook.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panelMenuToCook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 156</value>
+  </data>
+  <data name="panelMenuToCook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 273</value>
+  </data>
+  <data name="panelMenuToCook.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelMenuToCook.Name" xml:space="preserve">
+    <value>panelMenuToCook</value>
+  </data>
+  <data name="&gt;&gt;panelMenuToCook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMenuToCook.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMenuToCook.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnConfirmChanges.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfirmChanges.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnConfirmChanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 379</value>
+  </data>
+  <data name="btnConfirmChanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <data name="btnConfirmChanges.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="btnConfirmChanges.Text" xml:space="preserve">
+    <value>Confirm Changes</value>
+  </data>
+  <data name="&gt;&gt;btnConfirmChanges.Name" xml:space="preserve">
+    <value>btnConfirmChanges</value>
+  </data>
+  <data name="&gt;&gt;btnConfirmChanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConfirmChanges.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnConfirmChanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="timerShowBtnConfirmChanges.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>616, 441</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIADuKQAAZgAAAICAAAABACAAKAgBAFQqAABAQAAAAQAgAChCAAB8MgEAMDAAAAEA
@@ -2532,5 +2813,23 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAA==
 </value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AdiCO - Chef</value>
+  </data>
+  <data name="&gt;&gt;timerShowBtnConfirmChanges.Name" xml:space="preserve">
+    <value>timerShowBtnConfirmChanges</value>
+  </data>
+  <data name="&gt;&gt;timerShowBtnConfirmChanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormNavigationChef</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -50,12 +50,8 @@
             // 
             this.panelNavBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(83)))), ((int)(((byte)(32)))));
             this.panelNavBar.Controls.Add(this.panelChef);
-            this.panelNavBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelNavBar.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.Name = "panelNavBar";
-            this.panelNavBar.Padding = new System.Windows.Forms.Padding(12);
-            this.panelNavBar.Size = new System.Drawing.Size(616, 94);
-            this.panelNavBar.TabIndex = 12;
             // 
             // panelChef
             // 
@@ -64,100 +60,62 @@
             this.panelChef.Controls.Add(this.lblChefName);
             this.panelChef.Controls.Add(this.picBoxChef);
             this.panelChef.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panelChef.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChef.Location = new System.Drawing.Point(12, 12);
+            resources.ApplyResources(this.panelChef, "panelChef");
             this.panelChef.Name = "panelChef";
-            this.panelChef.Size = new System.Drawing.Size(592, 70);
-            this.panelChef.TabIndex = 10;
             // 
             // lblChefEmail
             // 
-            this.lblChefEmail.AutoSize = true;
+            resources.ApplyResources(this.lblChefEmail, "lblChefEmail");
             this.lblChefEmail.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblChefEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChefEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
-            this.lblChefEmail.Location = new System.Drawing.Point(59, 39);
             this.lblChefEmail.Name = "lblChefEmail";
-            this.lblChefEmail.Size = new System.Drawing.Size(112, 15);
-            this.lblChefEmail.TabIndex = 15;
-            this.lblChefEmail.Text = "admin@gmail.com";
             this.lblChefEmail.Click += new System.EventHandler(this.lblChefEmail_Click);
             // 
             // lblChefName
             // 
-            this.lblChefName.AutoSize = true;
+            resources.ApplyResources(this.lblChefName, "lblChefName");
             this.lblChefName.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblChefName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChefName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
-            this.lblChefName.Location = new System.Drawing.Point(58, 15);
             this.lblChefName.Name = "lblChefName";
-            this.lblChefName.Size = new System.Drawing.Size(68, 24);
-            this.lblChefName.TabIndex = 14;
-            this.lblChefName.Text = "Gavriel";
             this.lblChefName.Click += new System.EventHandler(this.lblChefName_Click);
             // 
             // picBoxChef
             // 
             this.picBoxChef.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBoxChef.Image = ((System.Drawing.Image)(resources.GetObject("picBoxChef.Image")));
-            this.picBoxChef.Location = new System.Drawing.Point(16, 19);
+            resources.ApplyResources(this.picBoxChef, "picBoxChef");
             this.picBoxChef.Name = "picBoxChef";
-            this.picBoxChef.Size = new System.Drawing.Size(32, 32);
-            this.picBoxChef.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBoxChef.TabIndex = 13;
             this.picBoxChef.TabStop = false;
             this.picBoxChef.Click += new System.EventHandler(this.picBoxChef_Click);
             // 
             // lblTableNo
             // 
-            this.lblTableNo.AutoSize = true;
-            this.lblTableNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTableNo.Location = new System.Drawing.Point(12, 110);
+            resources.ApplyResources(this.lblTableNo, "lblTableNo");
             this.lblTableNo.Name = "lblTableNo";
-            this.lblTableNo.Size = new System.Drawing.Size(149, 16);
-            this.lblTableNo.TabIndex = 57;
-            this.lblTableNo.Text = "Order ID and Table No :";
             // 
             // comboOrderAndTable
             // 
             this.comboOrderAndTable.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboOrderAndTable.FormattingEnabled = true;
-            this.comboOrderAndTable.Location = new System.Drawing.Point(168, 109);
+            resources.ApplyResources(this.comboOrderAndTable, "comboOrderAndTable");
             this.comboOrderAndTable.Name = "comboOrderAndTable";
-            this.comboOrderAndTable.Size = new System.Drawing.Size(130, 21);
-            this.comboOrderAndTable.TabIndex = 0;
             this.comboOrderAndTable.SelectedIndexChanged += new System.EventHandler(this.comboOrderAndTable_SelectedIndexChanged);
             // 
             // lblMenuToCook
             // 
-            this.lblMenuToCook.AutoSize = true;
-            this.lblMenuToCook.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenuToCook.Location = new System.Drawing.Point(12, 137);
+            resources.ApplyResources(this.lblMenuToCook, "lblMenuToCook");
             this.lblMenuToCook.Name = "lblMenuToCook";
-            this.lblMenuToCook.Size = new System.Drawing.Size(93, 16);
-            this.lblMenuToCook.TabIndex = 57;
-            this.lblMenuToCook.Text = "Menu to cook :";
             // 
             // panelMenuToCook
             // 
-            this.panelMenuToCook.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelMenuToCook.Location = new System.Drawing.Point(12, 156);
+            resources.ApplyResources(this.panelMenuToCook, "panelMenuToCook");
             this.panelMenuToCook.Name = "panelMenuToCook";
-            this.panelMenuToCook.Size = new System.Drawing.Size(400, 273);
-            this.panelMenuToCook.TabIndex = 1;
             // 
             // btnConfirmChanges
             // 
             this.btnConfirmChanges.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
-            this.btnConfirmChanges.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmChanges.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.btnConfirmChanges, "btnConfirmChanges");
             this.btnConfirmChanges.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
-            this.btnConfirmChanges.Location = new System.Drawing.Point(424, 379);
             this.btnConfirmChanges.Name = "btnConfirmChanges";
-            this.btnConfirmChanges.Size = new System.Drawing.Size(180, 50);
-            this.btnConfirmChanges.TabIndex = 58;
-            this.btnConfirmChanges.Text = "Confirm Changes";
             this.btnConfirmChanges.UseVisualStyleBackColor = false;
             this.btnConfirmChanges.Click += new System.EventHandler(this.btnConfirmChanges_Click);
             // 
@@ -168,10 +126,9 @@
             // 
             // FormNavigationChef
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(616, 441);
             this.ControlBox = false;
             this.Controls.Add(this.btnConfirmChanges);
             this.Controls.Add(this.panelMenuToCook);
@@ -179,10 +136,8 @@
             this.Controls.Add(this.lblMenuToCook);
             this.Controls.Add(this.lblTableNo);
             this.Controls.Add(this.panelNavBar);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormNavigationChef";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AdiCO - Chef";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormNavigationChef_FormClosed);
             this.Load += new System.EventHandler(this.FormNavigationChef_Load);
             this.panelNavBar.ResumeLayout(false);

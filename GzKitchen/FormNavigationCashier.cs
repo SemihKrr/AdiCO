@@ -24,6 +24,8 @@ namespace GzKitchen
 
         private void FormNavigationCashier_Load(object sender, EventArgs e)
         {
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
             LoadData();
             LoadCashierInfo();
         }

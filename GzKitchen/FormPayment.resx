@@ -117,7 +117,63 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblAmountTendered.Text" xml:space="preserve">
+    <value>Amount Tendered :</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAmountTendered.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtTotalPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 48</value>
+  </data>
+  <data name="&gt;&gt;txtChange.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPayment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnProceedPayment.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblTotalPayment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPayment.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTableNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;txtTotalPayment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAmountTendered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtTotalPayment.Text" xml:space="preserve">
+    <value>₺ 10.000</value>
+  </data>
+  <data name="&gt;&gt;lblChange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnProceedPayment.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAmountTendered.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotalPayment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIADuKQAAZgAAAICAAAABACAAKAgBAFQqAABAQAAAAQAgAChCAAB8MgEAMDAAAAEA
@@ -1963,4 +2019,232 @@
         AAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAA==
 </value>
   </data>
+  <data name="&gt;&gt;txtTableNo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtAmountTendered.Name" xml:space="preserve">
+    <value>txtAmountTendered</value>
+  </data>
+  <data name="txtChange.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.Name" xml:space="preserve">
+    <value>lblTableNo</value>
+  </data>
+  <data name="&gt;&gt;txtChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnProceedPayment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txtTotalPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 29</value>
+  </data>
+  <data name="lblAmountTendered.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 93</value>
+  </data>
+  <data name="txtChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 190</value>
+  </data>
+  <data name="lblTotalPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblChange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAmountTendered.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 38</value>
+  </data>
+  <data name="txtTotalPayment.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="lblChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="txtAmountTendered.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 112</value>
+  </data>
+  <data name="&gt;&gt;btnProceedPayment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAmountTendered.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblChange.Name" xml:space="preserve">
+    <value>lblChange</value>
+  </data>
+  <data name="&gt;&gt;btnProceedPayment.Name" xml:space="preserve">
+    <value>btnProceedPayment</value>
+  </data>
+  <data name="&gt;&gt;btnProceedPayment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAmountTendered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="lblTableNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 255</value>
+  </data>
+  <data name="txtTableNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPayment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtChange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnProceedPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 307</value>
+  </data>
+  <data name="btnProceedPayment.Text" xml:space="preserve">
+    <value>Proceed Payment</value>
+  </data>
+  <data name="lblChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 166</value>
+  </data>
+  <data name="lblTableNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 29</value>
+  </data>
+  <data name="&gt;&gt;txtChange.Name" xml:space="preserve">
+    <value>txtChange</value>
+  </data>
+  <data name="&gt;&gt;txtTotalPayment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTableNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
+  </data>
+  <data name="lblTableNo.Text" xml:space="preserve">
+    <value>Table No :</value>
+  </data>
+  <data name="&gt;&gt;txtAmountTendered.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtChange.Text" xml:space="preserve">
+    <value>₺ 0</value>
+  </data>
+  <data name="&gt;&gt;lblAmountTendered.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 381</value>
+  </data>
+  <data name="&gt;&gt;txtTotalPayment.Name" xml:space="preserve">
+    <value>txtTotalPayment</value>
+  </data>
+  <data name="&gt;&gt;lblChange.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTableNo.Name" xml:space="preserve">
+    <value>txtTableNo</value>
+  </data>
+  <data name="&gt;&gt;lblTableNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblChange.Text" xml:space="preserve">
+    <value>Change :</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;lblAmountTendered.Name" xml:space="preserve">
+    <value>lblAmountTendered</value>
+  </data>
+  <data name="lblChange.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 24, 24, 24</value>
+  </data>
+  <data name="&gt;&gt;txtTableNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTotalPayment.Text" xml:space="preserve">
+    <value>Total Payment :</value>
+  </data>
+  <data name="txtTableNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 254</value>
+  </data>
+  <data name="lblTotalPayment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtTableNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblChange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPayment</value>
+  </data>
+  <data name="&gt;&gt;lblAmountTendered.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnProceedPayment.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTotalPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="lblAmountTendered.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 16</value>
+  </data>
+  <data name="txtChange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnProceedPayment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lblTableNo.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;txtTotalPayment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTotalPayment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnProceedPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 50</value>
+  </data>
+  <data name="txtChange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="txtTableNo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtAmountTendered.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTotalPayment.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="txtAmountTendered.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAmountTendered.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="&gt;&gt;txtAmountTendered.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPayment.Name" xml:space="preserve">
+    <value>lblTotalPayment</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

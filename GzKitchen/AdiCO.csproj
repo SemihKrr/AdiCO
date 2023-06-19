@@ -165,9 +165,6 @@
     <EmbeddedResource Include="FormLogin.tr-CY.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.tr-TR.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.tr.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +181,9 @@
       <DependentUpon>FormNavigationCashier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationChef.resx">
+      <DependentUpon>FormNavigationChef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNavigationChef.tr.resx">
       <DependentUpon>FormNavigationChef.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPayment.resx">
@@ -206,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationCashier.resx">
       <DependentUpon>FormNavigationCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPayment.tr.resx">
+      <DependentUpon>FormPayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderedMenuLayout.resx">
       <DependentUpon>OrderedMenuLayout.cs</DependentUpon>
