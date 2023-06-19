@@ -171,6 +171,9 @@
     <EmbeddedResource Include="FormLogin.tr.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormManageAccount.tr.resx">
+      <DependentUpon>FormManageAccount.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationAdmin.tr.resx">
       <DependentUpon>FormNavigationAdmin.cs</DependentUpon>
     </EmbeddedResource>
