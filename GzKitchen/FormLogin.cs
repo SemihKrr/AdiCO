@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -77,9 +78,8 @@ namespace GzKitchen
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
-        {            
-            lblEmail.Text = Properties.Strings.S001;
-            lblPassword.Text = Properties.Strings.S002;
+        {       
+            comboBox1.SelectedIndex = 1;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -91,16 +91,14 @@ namespace GzKitchen
         {
             if (comboBox1.SelectedIndex == 0)
             {
-                Properties.Settings.Default.Lang = "en";
-                Properties.Settings.Default.Save();
-                Application.Restart();
+                Thread.CurrentThread.CurrentUICulture=new System.Globalization.CultureInfo("en");
             }
             else if (comboBox1.SelectedIndex == 1) 
             {
-                Properties.Settings.Default.Lang = "tr";
-                Properties.Settings.Default.Save();
-                Application.Restart();
+                Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr");
             }
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }
