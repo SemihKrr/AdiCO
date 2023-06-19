@@ -79,6 +79,12 @@
     </Compile>
     <Compile Include="ExtensionForPanel.cs" />
     <Compile Include="FieldsValidator.cs" />
+    <Compile Include="FormManageTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormManageTable.Designer.cs">
+      <DependentUpon>FormManageTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormNavigationChef.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormManageAccount.tr.resx">
       <DependentUpon>FormManageAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormManageTable.resx">
+      <DependentUpon>FormManageTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormManageTable.tr.resx">
+      <DependentUpon>FormManageTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormManageMenu.tr.resx">
       <DependentUpon>FormManageMenu.cs</DependentUpon>
