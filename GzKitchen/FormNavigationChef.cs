@@ -142,7 +142,7 @@ namespace GzKitchen
         private void btnConfirmChanges_Click(object sender, EventArgs e)
         {
             var confirmationDialog = MessageBox.Show("Are you sure you want to change the cooking status ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if(confirmationDialog == DialogResult.Yes)
+            if (confirmationDialog == DialogResult.Yes)
             {
                 for (int i = 0; i < listUpdateOrderDetailID.Count; i++)
                 {
@@ -153,18 +153,29 @@ namespace GzKitchen
                     db.SaveChanges();
                 }
 
-                var checkAllCooked = db.OrderDetails.ToList().Where(x => x.OrderID == int.Parse(comboOrderAndTable.SelectedValue.ToString()) && x.IsCooked == false).ToList();// chef yemekleri hazırlandı işaretleyip güncelleyince hata veriyor
-                if(checkAllCooked.Count > 0)
+                try
                 {
-                    LoadData();
+                    var checkAllCooked = db.OrderDetails.ToList().Where(x => x.OrderID == int.Parse(comboOrderAndTable.SelectedValue.ToString()) && x.IsCooked == false).ToList();
+
+                    if (checkAllCooked.Count >= 0)
+                    {
+                        LoadData();
+                    }
+                    else
+                    {
+                        LoadComboOrderAndTable();
+                    }
                 }
-                else
+                catch (Exception)
                 {
-                    LoadComboOrderAndTable();
+                    MessageBox.Show("Yapılacak Yemek Kalmadı");
+                    this.Close();
+                    FormLogin frmlogin = new FormLogin();
+                    frmlogin.ShowDialog();
                 }
+
             }
         }
-
         private void timerShowBtnConfirmChanges_Tick(object sender, EventArgs e)
         {
             if (isAnyChangesMade)
