@@ -117,67 +117,417 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;txtPrice.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 192</value>
+  </data>
+  <data name="&gt;&gt;lblPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="picBoxPicture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAA68AAAOvARgesX0AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAAM5klEQVR4Xu2dBcw1RxWGf9zdJQRa+JESrLg1SFuk8ONQHIJDkQZ3awu0QEggUCQEC+7u7u7uFHcp
-        VuR9wjdluLz3zu7s7O7ce+dNnuTLd+/dmZ2d3Z05c86ZXU1NTU1NTU1NTU1NTVXqLGIfsa/YT1xTHChu
-        OhJ7xN5iTJ1V3E3cXZyJf2yzTi4uIQ4Wh4lXi8+IY8TfxL9m4J/iWeKUorReKjh+XNaLxNboxIK7+UHi
-        neIvIm78mnimKCkuvisH+GxjxUW/juAkjxWuAWqEu/N8ooQeLlwZMXxno3Q28STxU+FOeB24nhiqLhc/
-        sBGdgAv/ZPEn4U5ynbisGKIHCnfcVTxSrKVOKO4nNuHCw6cE55SrPnf+ImvXCXaLDwl3MuvId8WFRa6G
-        XPzA2nSCG4mx7vpfiq8JOhezBnijeMVIvFjw2D6NyFXOY38Z1XeC+4h/CFf5rnCR3yAOF3cQVxJnFycS
-        66aSFz9QbSc4QrgKp8DA8zZxV8Fj9gRiEzTGxQ9U1wm4811FV/EVcRexiebPMS9+oJpOwDu/z2P/s+KG
-        YsiIumZNcfEDlDWrGO13HfDxvfsLLIGbqkuJ2LY/Ntx4lxSziDu461Tvy+L8YtP1aOHOf5EPm/8t0rVt
-        nyhm0aHCVWgRTuTMYht0tHBtEEN7MK10n8XwnS6d4NlicjEt6/Lof484qdgWHSJcOwTCxUfu8xjUpRPc
-        U0wubPuuMjGM8s8gtknMaH4mXHvEFx+578QEreoELKydUUwqFndSdz+fb8M73wmHFqyVoS0YFLL0fWoR
-        K24vRyx+u+g8wg12cTG5WNKNK+pgtL/Nwmp5ObHKpcy1W4wT/gjXFhcSs0yjmcKl1vOZ52/yVK+UXNvF
-        VCk8eVxlY24gmtJybRdTpVb5scFXxdiPJo7PAhGvovcL3rd/3IG/+R9z4yuKmq2Nrv1iqhMeu6nBH7b9
-        scR08t7iJ8KV7fixuJc4iahNrr4x1enqwlU0wKreWAs7+4tvC1duF74priFqkqtnTHV6nHAVDbxVjCGe
-        KiViAo4TuJ/XIlfHmOqUskixnl9aTxCurCHgt1CDXN1iqhLv/9RdOMRnzum2wpVTgjuJueXqFVOVsG65
-        SgZ+IUp68lDemFFCHHsWK1okV6+YqnRL4SoZwIevpHD2dOWUhIWqOeXqFFOVHi9cJQMEcpbSAcKVschv
-        xGMEDhGn2gGHjMcKPnO/WYTZxVxy9YmpSq8RrpKB24tSep1wZcS8TxAqvkyEXGMQcr+Nea2YS64+MVWJ
-        EG1XyQCWuRIiBDtlbPqEOIVIiWN9WrhjBCiry7HGkKtPTFX6kXCVDOAgUkIEX7rjB5jLX1R01cVEymH1
-        IDGHXF1iqhGj+1VTQBq4VNAGy8iujECOsentwh0r8Agxh1xdYqoR/nyuggEieUop5WmU42eQctN+jphD
-        ri4x1egiwlUw8HVRSqRHcWUEbiX66tbCHSswVzaOVe7jPFWrETHxrpKBj4hSeoZwZQRIpNRXrAa6YwWe
-        L+bQD4SrD3xfVKOrCFfJwLtFKaXCqJ8n+ooL7I4VmMuv/qHC1Qf4rBqRis1VMkBgZyndTrgyAr8SpxNd
-        hVdyyihEmXMItznsEIv14X9VudRdVyxWMqakGfhcIhVa9XTRVWT2cscIUNY5xZy6sXjuDsRZVicq5Rov
-        QC6/ksLQ48qJeYBIibV/99uYj4mmhMiY6RovQCaNkuoaas6Tx63osZJI1hD3m0VwMWtKaOoOgO/B94Qr
-        y/Ed8ZYd+Nt9x0Hen5OJTRSLYthUXiJ4Ep5WZGvqDoBSc/cS5NgU1kEuTQ83FPacLM3RAVDKKDSEF4pN
-        FHf+srUPFsayTPZzdQBeBR8VrswhkO9vrhXAsfUU4c45QLhab83VARCRrxiaXLk5vEtMHk07oV4u3HkH
-        mHL21pwdAGEUYe6fsg+sgt8+TWx6zCLXwp1/gGvZW3N3gKDLCPz4XB1WQTqWUg4rtWujO0AQaxO861ZF
-        Cn1LMA26stgmbUUHiIUZ96ri+jvw99ym3Tm1dR2g6X/VOsCWq3WANRWJoHiFMVP5uMBZ5M8CX0xC3D8n
-        8IXAQkqOpmVqHWDNhDc1ySV/LVzbOrD0sdjFrGhRrQOsifC0Juw9FQORApN2nH2sdYA1EFFL7xCuLXP4
-        hmANALUOULkuILhgrh2HQH4kknO1DlCxSLHTNWg1B8zdJOV2nwVaB5hJbH3zV+Hab0paB5hYDPa6ppCf
-        gtYBJhT+DC8Trs2WQZ5D/BRJt8PvSW93HsH8/73C/aYPrQNMJHIXdNkUIsDcnmQXqeXqm4nfCneMLrQO
-        MIHIkk68pGsrBxa/W4iu2kfg0OqOlaJ1gJF1NdHHqkfi7Zz9iLEgdomfWKR1gBFFmpw+I/0vifOKXJEB
-        JZW6Z5E+T5rj1TrAajHST2VRXYQsaH1iHJeJZNhHCVeGIyvotHWA5SKwhP2FXbssg1W90smrSXzZJZ0u
-        0de91TqAF5lTUulzY7DUjZmr+Fri78KVHbij6K3WAf5fFxT4Hbr2cBwrbiLGViofEteyt2rsAMyzyVtA
-        GBR3FbB9Gjua7CXG1H6CPAWuLRzsInZ5MYW4Fq4OgbXuAFjEHiK+KFw9Ylhxw3OYzZVKigTWfUb6LM6w
-        0dNU2sgOwCYUTxU5iylY2Kgfy7BDxEgfS12f4BSikE4vptQoHWDqBBGxsIH3edwug/XyO4scMdInzNod
-        dxljjPS7KGUXYNf23poyRUwQlq4uOYP78gLRZytbnj4fFO5YDp4QvKbm0puEq1eAPQd7a8okUehgQfJJ
-        V1YJeDR32duIFbk+3jvY9FmsmVMpVzOcUnprqjRx+Mq9SrgySoOrNcYTllwXRecgfSxTN/dbx8/FFcTc
-        Iou6q18gK0ZyikSRDE5oRHf8MeEif0BgzSO0mtwBKWPKIuyVOPbUs6tIeuXqGLi06K0xU8ViTUvFtC+D
-        bWoY9ZLokc2lyCiSu0yaC9HKNe2QzvZ4rp6BrGkxj0R3sACj9BwxIk3tQ+w4RtxGLBtlM2b5vHC/LQkZ
-        SPsMKKdQylkka1qaShfPyLdP4gUydPSdVgUYxXc5CaZuBE24YwyF832YqE3cEKvsFGyUxbXMUmrDiHOI
-        LmJDCAZg7hir4Df8to/CMm0f400KInmy1tQnEFlWXZ0DxBtmK7X1Smp0ydr30cL9NgXvecYKuWLL2B8K
-        d+w+fFKUNi2XFGsUrt4BPIiylbIw4fe+TCzQpJ4gDhZRSuXO5bVzpPidcGWtgs5zqJjDstdHTGtd/QNM
-        sbOV2jbucLEo7npMou77KbjrV+0KlivqdF+B8QrzsCsbMETRYJiia7/wQWyn784lQHxCtrDOuYMGCFeO
-        daBYtSHCMpjaTWVNYwTPplLMGsgaSrk8RnnM42q1biJVrmvTwKB2JSmzO2gAT1gajZy0vOtzBl5vFtuc
-        32eIaPuUNzLu5NnCZJryOWNunjJEOAiYJFa+KV9spefaNsAUcLDNIuX/lnPXsw0c05emYbqHcO0bYI1g
-        sNiT1x08ByxW7a4vp1Q63UeJwSLqxR28L9z15xZNZcRsKbWARf7EwWIcMCSnDXNw5qrZ5sgmq9S2eEx3
-        i22MwSaLrpAULLnuLZrKivz/KacVVkmLCaueK2QZfxBs9tju+nF0c+HaPeYAUUys+uH65ApahIQGU7pE
-        b5uwUBJg6to+wNJ5qY29j1eXTBWvF+toTVsnpXZZBUz4xcVdvWxfmgCuVrtF0zjCYRXjjmv7AK/fIauo
-        K5Xa5BmInRutAlssVja7ZCA5QowmPHhXraYFsEBt6t58c4ipODMq19Yxvxej33xks3KFL0KypDGWdrdN
-        3Pkpt+8ApuHRxSCvS28E0p8RUt2Upz5BKgzSJ5t2kxGry6sAmD4+WGz6zl0lxVQPB9SuU28GfpPHKOwR
-        xwlXIccXBIEgbZq4XMzdMfKk5vkxXIODxCxK2aMdjGR5V7XxwX/F4Jq2zPGrmOS9v0qHCVexFPRcghox
-        GePYsE1PBs6Vc+bcyRzW50kag/t7FaL35p5EAA8h3MMI+WL1kKVM4g7WxTnTibpzDvgcck44cOLDNzR9
-        PG09+52/KMYEXQeGfaHBGA3j484dA3QWvIhrgLqEelFH6jokt+8qGPDN9s5PCXNxzjavjW7gnjc07c3o
-        4v12iBjrabCNYOEjG9paLa9jkiQoIScqp/EfuInYU5DUOWsrpntEEOUEh24rrOezpLtRi2oYOYgcIivH
-        0H3zNhHudty48OQp7sxRmzAL7yvI9MnIuavJc5PAo5fUNGQ5IUzN5S3aGhG9gmGEODYSMxKgSVg2Ebo1
-        7LqVC84bnANTw1cKzo1z5FzX2b4xuVgSZWWMpwY5CbhjeFSytlAD1IU6UTfqSF2pc1NTU1NTU1NTU1NT
-        U1Xatevfr3X31SWtT+oAAAAASUVORK5CYII=
+        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
+        6gAAAABJRU5ErkJggg==
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="picBoxPicture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 280</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelButtonSaveCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="picBoxPicture.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelButtonSaveCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 36</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Name" xml:space="preserve">
+    <value>lblPrice</value>
+  </data>
+  <data name="lblPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="txtPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="picBoxPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 12</value>
+  </data>
+  <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 65</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="&gt;&gt;dgvMenu.Name" xml:space="preserve">
+    <value>dgvMenu</value>
+  </data>
+  <data name="txtPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 38</value>
+  </data>
+  <data name="&gt;&gt;picBoxPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 80</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelButtonSaveCancel.Name" xml:space="preserve">
+    <value>panelButtonSaveCancel</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Name" xml:space="preserve">
+    <value>txtPrice</value>
+  </data>
+  <data name="lblDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvMenu.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPicture.Text" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="&gt;&gt;dgvMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picBoxPicture.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="btnSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;dgvMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelButtonSaveCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 150</value>
+  </data>
+  <data name="&gt;&gt;panelButtonSaveCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>panelButtonSaveCancel</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="txtDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelButtonSaveCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 475</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelButtonSaveCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelButtonSaveCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 64</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 3</value>
+  </data>
+  <data name="&gt;&gt;picBoxPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
+    <value>lblDescription</value>
+  </data>
+  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="picBoxPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
+    <value>txtDescription</value>
+  </data>
+  <data name="&gt;&gt;lblPicture.Name" xml:space="preserve">
+    <value>lblPicture</value>
+  </data>
+  <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>panelButtonSaveCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="lblPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblPicture.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgvMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormManageMenu</value>
+  </data>
+  <data name="lblPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 13</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvMenu.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="picBoxPicture.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPicture.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="picBoxPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 132</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;lblPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 3</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPicture.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblPrice.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picBoxPicture.Name" xml:space="preserve">
+    <value>picBoxPicture</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

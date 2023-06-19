@@ -174,8 +174,14 @@
     <EmbeddedResource Include="FormManageAccount.tr.resx">
       <DependentUpon>FormManageAccount.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormManageMenu.tr.resx">
+      <DependentUpon>FormManageMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationAdmin.tr.resx">
       <DependentUpon>FormNavigationAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNavigationCashier.tr.resx">
+      <DependentUpon>FormNavigationCashier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationChef.resx">
       <DependentUpon>FormNavigationChef.cs</DependentUpon>
@@ -202,6 +208,9 @@
       <DependentUpon>FormNavigationCashier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderedMenuLayout.resx">
+      <DependentUpon>OrderedMenuLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderedMenuLayout.tr.resx">
       <DependentUpon>OrderedMenuLayout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

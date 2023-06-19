@@ -46,12 +46,12 @@
             // 
             // panelLogin
             // 
-            resources.ApplyResources(this.panelLogin, "panelLogin");
             this.panelLogin.Controls.Add(this.lblPassword);
             this.panelLogin.Controls.Add(this.lblEmail);
             this.panelLogin.Controls.Add(this.txtPassword);
             this.panelLogin.Controls.Add(this.txtEmail);
             this.panelLogin.Controls.Add(this.btnLogin);
+            resources.ApplyResources(this.panelLogin, "panelLogin");
             this.panelLogin.Name = "panelLogin";
             // 
             // lblPassword
@@ -77,10 +77,10 @@
             // 
             // btnLogin
             // 
-            resources.ApplyResources(this.btnLogin, "btnLogin");
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
             this.btnLogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnLogin.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnLogin, "btnLogin");
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -97,35 +97,36 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.lblDesc);
             this.panel1.Controls.Add(this.lblHeader);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged);
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormLogin
             // 
+            this.AcceptButton = this.btnLogin;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));

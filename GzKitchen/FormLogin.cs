@@ -27,7 +27,7 @@ namespace GzKitchen
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtEmail.Text != "" && txtPassword.Text != "")
+            if (txtEmail.Text != "" && txtPassword.Text != "")
             {
                 var account = db.Accounts.Where(x => x.Email == txtEmail.Text).ToList();
                 if(account.Count > 0)
