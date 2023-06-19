@@ -16,7 +16,7 @@ namespace GzKitchen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormLogin());//aşşçı formunda yemek kalmayınca hata veren yer
+            Application.Run(new FormLogin());
                    
         }
     }

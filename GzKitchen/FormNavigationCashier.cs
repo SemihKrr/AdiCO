@@ -224,6 +224,13 @@ namespace GzKitchen
             this.Hide();
             new FormLogin().Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form frm = new FormLogin();
+            frm.ShowDialog();
+        }
     }
 
     public class OrderedMenu

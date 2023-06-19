@@ -270,7 +270,6 @@
       <DependentUpon>GzKitchenModel.edmx</DependentUpon>
       <LastGenOutput>GzKitchenModel.cs</LastGenOutput>
     </Content>
-    <None Include="Resources\image-.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -286,6 +285,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

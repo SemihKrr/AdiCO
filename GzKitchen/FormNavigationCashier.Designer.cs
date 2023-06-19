@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNavigationCashier));
             this.panelNavBar = new System.Windows.Forms.Panel();
             this.panelCashier = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.lblCashierEmail = new System.Windows.Forms.Label();
             this.lblCashierName = new System.Windows.Forms.Label();
             this.picBoxCashier = new System.Windows.Forms.PictureBox();
@@ -67,12 +68,22 @@
             // panelCashier
             // 
             this.panelCashier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
+            this.panelCashier.Controls.Add(this.button1);
             this.panelCashier.Controls.Add(this.lblCashierEmail);
             this.panelCashier.Controls.Add(this.lblCashierName);
             this.panelCashier.Controls.Add(this.picBoxCashier);
             this.panelCashier.Cursor = System.Windows.Forms.Cursors.Default;
             resources.ApplyResources(this.panelCashier, "panelCashier");
             this.panelCashier.Name = "panelCashier";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblCashierEmail
             // 
@@ -191,9 +202,11 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            this.ControlBox = false;
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelPayment);
             this.Controls.Add(this.panelNavBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormNavigationCashier";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormNavigationCashier_FormClosed);
@@ -232,5 +245,6 @@
         private System.Windows.Forms.Label txtTotal;
         private System.Windows.Forms.Panel panelTotal;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Button button1;
     }
 }
