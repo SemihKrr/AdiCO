@@ -26,8 +26,6 @@ namespace GzKitchen
 
         private void FormNavigationChef_Load(object sender, EventArgs e)
         {
-            FormBorderStyle = FormBorderStyle.None;
-            WindowState = FormWindowState.Maximized;
             LoadChefInfo();
             LoadComboOrderAndTable();
         }
@@ -217,6 +215,13 @@ namespace GzKitchen
         private void FormNavigationChef_FormClosed(object sender, FormClosedEventArgs e)
         {
             new FormLogin().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form frm = new FormLogin();
+            frm.ShowDialog();
         }
     }
 }

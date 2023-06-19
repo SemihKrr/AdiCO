@@ -42,9 +42,9 @@
             this.lblManageMenu = new System.Windows.Forms.Label();
             this.panelContent = new System.Windows.Forms.Panel();
             this.panelSideBar = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnManageTable = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblManageTable = new System.Windows.Forms.Label();
             this.btnLogout = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblLogout = new System.Windows.Forms.Label();
@@ -56,7 +56,7 @@
             this.btnManageMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelSideBar.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.btnManageTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.btnLogout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -154,21 +154,21 @@
             // 
             // panelSideBar
             // 
-            this.panelSideBar.Controls.Add(this.panel1);
+            this.panelSideBar.Controls.Add(this.btnManageTable);
             this.panelSideBar.Controls.Add(this.btnLogout);
             this.panelSideBar.Controls.Add(this.btnManageAccount);
             this.panelSideBar.Controls.Add(this.btnManageMenu);
             resources.ApplyResources(this.panelSideBar, "panelSideBar");
             this.panelSideBar.Name = "panelSideBar";
             // 
-            // panel1
+            // btnManageTable
             // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel1.Name = "panel1";
-            this.panel1.Tag = "btnSideBar-NotSelected";
+            resources.ApplyResources(this.btnManageTable, "btnManageTable");
+            this.btnManageTable.Controls.Add(this.pictureBox4);
+            this.btnManageTable.Controls.Add(this.lblManageTable);
+            this.btnManageTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnManageTable.Name = "btnManageTable";
+            this.btnManageTable.Tag = "btnSideBar-NotSelected";
             // 
             // pictureBox4
             // 
@@ -176,10 +176,11 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
             // 
-            // label1
+            // lblManageTable
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.lblManageTable, "lblManageTable");
+            this.lblManageTable.Name = "lblManageTable";
+            this.lblManageTable.Click += new System.EventHandler(this.lblManageTable_Click);
             // 
             // btnLogout
             // 
@@ -225,7 +226,7 @@
             this.btnManageMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panelSideBar.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
+            this.btnManageTable.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.btnLogout.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -250,8 +251,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel btnManageTable;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblManageTable;
     }
 }

@@ -227,7 +227,9 @@ namespace GzKitchen
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            Form frm = new FormLogin();
+            frm.ShowDialog();
         }
     }
 

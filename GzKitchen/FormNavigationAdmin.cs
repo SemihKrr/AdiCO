@@ -23,6 +23,10 @@ namespace GzKitchen
         {
             Dock = DockStyle.Fill
         };
+        private UserControl FormManageTable = new FormManageTable()
+        {
+            Dock = DockStyle.Fill
+        };
 
         public int adminID = 0;
 
@@ -81,6 +85,16 @@ namespace GzKitchen
             panelContent.Controls.Clear();
             panelContent.Controls.Add(formManageMenu);
             formManageMenu.Focus();
+        }
+        private void btnManageTable_Click(object sender, EventArgs e)
+        {
+            ClearSelectedStateOnSideBarButton();
+            btnManageTable.Tag = "btnSideBar-Selected";
+            LoadSideBar();
+
+            panelContent.Controls.Clear();
+            panelContent.Controls.Add(FormManageTable);
+            FormManageTable.Focus();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -142,6 +156,7 @@ namespace GzKitchen
             btnManageMenu_Click(sender, e);
         }
 
+
         private void lblManageMenu_Click(object sender, EventArgs e)
         {
             btnManageMenu_Click(sender, e);
@@ -165,6 +180,12 @@ namespace GzKitchen
         private void picBoxAdmin_Click(object sender, EventArgs e)
         {
             lblAdminName_Click(sender, e);
+        }
+
+        private void lblManageTable_Click(object sender, EventArgs e)
+        {
+
+            btnManageTable_Click(sender, e);
         }
     }
 }

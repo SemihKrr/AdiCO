@@ -33,6 +33,7 @@
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="TableNo" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Picture" Type="image" />
         </EntityType>
         <EntityType Name="OrderDetail">
           <Key>
@@ -130,6 +131,7 @@
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="TableNo" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="OrderDetails" Relationship="GzKitchenModel.FK_OrderDetail_Order" FromRole="Order" ToRole="OrderDetail" />
+          <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         <EntityType Name="OrderDetail">
           <Key>
@@ -200,6 +202,7 @@
           <EntitySetMapping Name="Orders">
             <EntityTypeMapping TypeName="GzKitchenModel.Order">
               <MappingFragment StoreEntitySet="Order">
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
                 <ScalarProperty Name="TableNo" ColumnName="TableNo" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
