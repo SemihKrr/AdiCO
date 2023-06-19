@@ -39,6 +39,7 @@
             this.lblDesc = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panelLogin.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -72,9 +73,9 @@
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.Location = new System.Drawing.Point(95, 34);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(70, 16);
+            this.lblEmail.Size = new System.Drawing.Size(41, 16);
             this.lblEmail.TabIndex = 30;
-            this.lblEmail.Text = "Username";
+            this.lblEmail.Text = "Email";
             // 
             // txtPassword
             // 
@@ -112,25 +113,27 @@
             // 
             this.lblHeader.AutoSize = true;
             this.lblHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.Location = new System.Drawing.Point(113, 34);
+            this.lblHeader.Location = new System.Drawing.Point(117, 34);
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(192, 64);
             this.lblHeader.TabIndex = 28;
             this.lblHeader.Text = "AdiCO";
+            this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblDesc
             // 
             this.lblDesc.AutoSize = true;
             this.lblDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesc.Location = new System.Drawing.Point(120, 113);
+            this.lblDesc.Location = new System.Drawing.Point(118, 113);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(190, 24);
+            this.lblDesc.Size = new System.Drawing.Size(197, 24);
             this.lblDesc.TabIndex = 27;
-            this.lblDesc.Text = "Retaurant Automation";
+            this.lblDesc.Text = "Restoran Otomasyonu";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.lblDesc);
             this.panel1.Controls.Add(this.lblHeader);
@@ -151,6 +154,18 @@
             this.button1.TabIndex = 29;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "İngilizce",
+            "Türkçe"});
+            this.comboBox1.Location = new System.Drawing.Point(305, 10);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(88, 21);
+            this.comboBox1.TabIndex = 30;
+            this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged);
             // 
             // FormLogin
             // 
@@ -186,6 +201,7 @@
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

@@ -77,13 +77,30 @@ namespace GzKitchen
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
-        {
-            
+        {            
+            lblEmail.Text = Properties.Strings.S001;
+            lblPassword.Text = Properties.Strings.S002;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 0)
+            {
+                Properties.Settings.Default.Lang = "en";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
+            else if (comboBox1.SelectedIndex == 1) 
+            {
+                Properties.Settings.Default.Lang = "tr";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
         }
     }
 }
