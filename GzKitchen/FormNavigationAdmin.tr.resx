@@ -715,7 +715,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMySURBVFhHzZdZ
+        6AAAAOgBhtX2rwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMySURBVFhHzZdZ
         qE1RGMePWTJmePBmejFEUZQXmd+IiAyhcMtUhkwPpjyZp0yZSlEUReZSHuRByjyFFIlMiczD77fX2afj
         dM9pn32vm3/9ut/e+7TXf33rW99eN4MeQmdYmcXYe+oiDA5htao2LIOnXvyGfrAvi7H31BOYFMJqUx04
         AL8gGqemDayGT7AEatxAH/gJwyE3TjkG2kAFHIE78AqewRU4BOOgGRTTJTgewvINzIXP8Bb2w1KYAONh
@@ -735,10 +735,26 @@
   <data name="lblManageMenu.Text" xml:space="preserve">
     <value>Menüyü Yönet</value>
   </data>
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6gAAAOoB+Ss1JgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGXSURBVFhH7dQ/
+        TgJBFAbwhdYQOACJxtoYGyu1pMAL4BGkM7HxBMTOiqiFlsaE2FPa2NhYeAE1HkA7K9bvI8NmGL51GWSf
+        jZP8yPJm3p9kspukafqnZNCSDFqSQUsyaEkGLXEdwxlsqwNlYC/Xk70TRvrwASsqYZnYw/Viz3GAPw14
+        gS2VtEzs4XqxZ/EAWC04XFBL1IseYAR3cBuJOSNRL3qAL1gP40WYw1wRjx7gEl5hGIk5V6Je3AAuaQcO
+        PA9w7f3nM2P+md2cWnKAVXiDPeAG1VUBwurCO1w4fO6qs4RVh0ld9mAv9swGyPMMTVGwCvtw7/C5Ks41
+        gTX8mqHxTyNMdgUGcKL2COuU1B4xFwY5e1NX8An8OoX4BvzUoGgA7rOGqs2e2QCbsCacw28HYA1Vmz2z
+        AfKuYJ4GC+1jTV3B/wBzD4BVgyPg+//k8J4ZqwVnSxmgB4/AV8zHWC84W8oA/M7fQDgAY8Pg7FwDdKCS
+        c2iDglgbJp/gUDs4O5Pv7VWgM7NhTQYtyaAlGbQkg5Zk0E6afANWR/GluQwaTQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="lblManageTable.Text" xml:space="preserve">
+    <value>Masaları Yönet</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rgAAAK4B+ff3XQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGTSURBVFhH7ddN
+        rQAAAK0BVE7WMAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGTSURBVFhH7ddN
         K0RRAMbxieyUlyIvxcLG0gegbLFQSvkSKL4Edmz4CBLZSXYiG5JIdmxsbZAob//n5Mzc7pxz75npzp3S
         PPVbnPty7jNz75zuFEgXjvCNnyp94haLaEJF2YVr0mqtoqK8QicOYRTrePzbZj1gDSNwpRmTeIe+jUEE
         x14kGn2NrjK6TSvw5QA6btqMAuMqEI0tswF9QpUYhis70FyzZhSYtALR7EPHzphReWpeIO0CjQK+/ac4

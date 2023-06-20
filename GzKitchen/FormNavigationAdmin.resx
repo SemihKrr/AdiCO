@@ -117,11 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnManageAccount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 441</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picBoxAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblManageMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGXSURBVFhH7dQ/
+        TgJBFAbwhdYQOACJxtoYGyu1pMAL4BGkM7HxBMTOiqiFlsaE2FPa2NhYeAE1HkA7K9bvI8NmGL51GWSf
+        jZP8yPJm3p9kspukafqnZNCSDFqSQUsyaEkGLXEdwxlsqwNlYC/Xk70TRvrwASsqYZnYw/Viz3GAPw14
+        gS2VtEzs4XqxZ/EAWC04XFBL1IseYAR3cBuJOSNRL3qAL1gP40WYw1wRjx7gEl5hGIk5V6Je3AAuaQcO
+        PA9w7f3nM2P+md2cWnKAVXiDPeAG1VUBwurCO1w4fO6qs4RVh0ld9mAv9swGyPMMTVGwCvtw7/C5Ks41
+        gTX8mqHxTyNMdgUGcKL2COuU1B4xFwY5e1NX8An8OoX4BvzUoGgA7rOGqs2e2QCbsCacw28HYA1Vmz2z
+        AfKuYJ4GC+1jTV3B/wBzD4BVgyPg+//k8J4ZqwVnSxmgB4/AV8zHWC84W8oA/M7fQDgAY8Pg7FwDdKCS
+        c2iDglgbJp/gUDs4O5Pv7VWgM7NhTQYtyaAlGbQkg5Zk0E6afANWR/GluQwaTQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;lblManageMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblManageAccount.Text" xml:space="preserve">
+    <value>Manage Account</value>
+  </data>
+  <data name="panelNavBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblAdminEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
@@ -140,54 +177,248 @@
         g//JBej/mzZKLahXVRfQjI/QpBbUq9k8lxUskhkskhkskhksTsn9BrxW1i7R/gaiAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 17</value>
+  <data name="lblAdminEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Italic</value>
   </data>
-  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="btnManageMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 39</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>btnManageAccount</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="lblManageAccount.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="lblManageAccount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="lblManageAccount.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
   <data name="lblManageAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 2</value>
+    <value>42, 2</value>
   </data>
-  <data name="lblManageAccount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="&gt;&gt;panelContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblManageAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 70</value>
+  <data name="lblAdminName.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="btnLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;picBoxAdmin.Name" xml:space="preserve">
+    <value>picBoxAdmin</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnManageMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelContent.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblManageTable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblAdminEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblManageTable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="panelSideBar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnManageAccount.Name" xml:space="preserve">
+    <value>btnManageAccount</value>
+  </data>
+  <data name="lblManageTable.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panelAdmin.Parent" xml:space="preserve">
+    <value>panelNavBar</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="btnManageTable.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="panelContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 347</value>
+  </data>
+  <data name="lblManageTable.Text" xml:space="preserve">
+    <value>Manage Table</value>
+  </data>
+  <data name="&gt;&gt;panelSideBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelSideBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;picBoxAdmin.Parent" xml:space="preserve">
+    <value>panelAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnManageTable.Name" xml:space="preserve">
+    <value>btnManageTable</value>
+  </data>
+  <data name="lblManageMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 56</value>
   </data>
   <data name="lblManageAccount.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="lblManageAccount.Text" xml:space="preserve">
-    <value>Manage Account</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;lblManageMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormNavigationAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnManageMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAdminEmail.Text" xml:space="preserve">
+    <value>admin@gmail.com</value>
+  </data>
+  <data name="lblLogout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnLogout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnManageTable.Parent" xml:space="preserve">
+    <value>panelSideBar</value>
+  </data>
+  <data name="lblManageTable.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblManageMenu.Name" xml:space="preserve">
+    <value>lblManageMenu</value>
+  </data>
+  <data name="lblAdminName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="panelContent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;lblManageTable.Name" xml:space="preserve">
+    <value>lblManageTable</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="lblLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 2</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblManageMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblAdminEmail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picBoxAdmin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;picBoxAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnManageMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 80</value>
+  </data>
+  <data name="btnManageMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 60</value>
+  </data>
+  <data name="lblLogout.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblManageMenu.Text" xml:space="preserve">
+    <value>Manage Menu</value>
+  </data>
+  <data name="lblManageTable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>btnManageMenu</value>
+  </data>
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMySURBVFhHzZdZ
+        qE1RGMePWTJmePBmejFEUZQXmd+IiAyhcMtUhkwPpjyZp0yZSlEUReZSHuRByjyFFIlMiczD77fX2afj
+        dM9pn32vm3/9ut/e+7TXf33rW99eN4MeQmdYmcXYe+oiDA5htao2LIOnXvyGfrAvi7H31BOYFMJqUx04
+        AL8gGqemDayGT7AEatxAH/gJwyE3TjkG2kAFHIE78AqewRU4BOOgGRTTJTgewvINzIXP8Bb2w1KYAONh
+        Priur+ELrIHmkK/u4Hu7RVcpDAyBUdAwuqpcFthIeABmx3fFsupvhzDSXwZOwP0sxt7bCR+gsAY6gQV0
+        Fm5mMV4MHUHVgw3wFcZ4A52EzSGMlDPwEc6DAxbyDZy1agF74Ac4qGmelWVt9p7PdkOcfutlYwgzt2BB
+        CCPlDNhs9hoUyB/4wnbgzEyrg/SHYhoApvkedPBGnh7D5BBGyhnoC6ZqO1jltcC0W1BbwZk7+BloDKo9
+        tIWJMNYbeWoCLokm8guxcEflDCgvnoNp7QI+WAF1wbQ7cwfX3HLQ8DzoDT2hUJowE7uiq6CSBtQxsHB6
+        gA90b8G5DHHaHdzCHBZdldZA+A7xUqQy4F6/Acq0+8Ikg8ey8BaFMJ0B191lUavgaggTax2cDmE6A85g
+        BqijsCWEieUWjTOYyoDFNxOU1d4rhIk1G66HMP0S2GTSyiU4FcLMXZgewkiJDNheXYa0cisuDGHmIJwD
+        t7JKZMAO6Da0w5WrQeCucfcoO+p72AGaSGRA2dudic0lqZqCKXewfHkgsY9MhcQG/Gtbtb0mMeFvTLUG
+        Kjuc+O2xoSU2oOxmmjATdrhiMu2elBw8Tv0UyG/XZRnwECLKa3u762phWuHuc7faetCcz/yMxzP33OA9
+        B4tVtgFbb32Iq9ds2F7tcPYJcatZ7fGsG4HvcnC/mPlKtQSe95zhCPALWUwNwAPMI3gJQ6FQqQy0gk3g
+        ofQFaGgO2B09mPrR8t478DfboDVUplQGYnk4mQY2FVOvGWdqfBjcXi2hlKpkoDr0/xqw410Gv/v+71aq
+        2Koi/6u6AG5jly8nt9c1eAM2j3+lruCOYvDM6D81+S/y0oxV2wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="lblLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 62</value>
+  </data>
+  <data name="&gt;&gt;btnManageAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnManageMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblAdminName.Parent" xml:space="preserve">
+    <value>panelAdmin</value>
+  </data>
+  <data name="lblManageMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 2</value>
+  </data>
+  <data name="btnManageTable.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblAdminName.Name" xml:space="preserve">
+    <value>lblAdminName</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="&gt;&gt;lblAdminName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnManageMenu.Parent" xml:space="preserve">
+    <value>panelSideBar</value>
+  </data>
+  <data name="lblManageAccount.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lblManageAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnManageAccount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Parent" xml:space="preserve">
+    <value>btnLogout</value>
   </data>
   <data name="lblManageAccount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -195,170 +426,83 @@
   <data name="&gt;&gt;lblManageAccount.Name" xml:space="preserve">
     <value>lblManageAccount</value>
   </data>
-  <data name="&gt;&gt;lblManageAccount.Type" xml:space="preserve">
+  <data name="panelNavBar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="&gt;&gt;lblManageTable.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblManageAccount.Parent" xml:space="preserve">
-    <value>btnManageAccount</value>
-  </data>
-  <data name="&gt;&gt;lblManageAccount.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnManageAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 17</value>
-  </data>
-  <data name="btnManageAccount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnManageAccount.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnManageAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 74</value>
-  </data>
-  <data name="btnManageAccount.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnManageAccount.Name" xml:space="preserve">
-    <value>btnManageAccount</value>
-  </data>
-  <data name="&gt;&gt;btnManageAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnManageAccount.Parent" xml:space="preserve">
-    <value>panelSideBar</value>
-  </data>
-  <data name="&gt;&gt;btnManageAccount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblAdminEmail.Name" xml:space="preserve">
-    <value>lblAdminEmail</value>
-  </data>
-  <data name="&gt;&gt;lblAdminEmail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAdminEmail.Parent" xml:space="preserve">
-    <value>panelAdmin</value>
-  </data>
-  <data name="&gt;&gt;lblAdminEmail.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.Name" xml:space="preserve">
-    <value>lblAdminName</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.Parent" xml:space="preserve">
-    <value>panelAdmin</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;picBoxAdmin.Name" xml:space="preserve">
-    <value>picBoxAdmin</value>
-  </data>
-  <data name="&gt;&gt;picBoxAdmin.Type" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;picBoxAdmin.Parent" xml:space="preserve">
-    <value>panelAdmin</value>
+  <data name="picBoxAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
   </data>
-  <data name="&gt;&gt;picBoxAdmin.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="panelAdmin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="panelNavBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="panelAdmin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 15</value>
+  <data name="lblAdminName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 15</value>
   </data>
-  <data name="panelAdmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="panelAdmin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1013, 86</value>
+  <data name="panelSideBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 347</value>
   </data>
   <data name="panelAdmin.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;panelAdmin.Name" xml:space="preserve">
-    <value>panelAdmin</value>
-  </data>
-  <data name="&gt;&gt;panelAdmin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelAdmin.Parent" xml:space="preserve">
-    <value>panelNavBar</value>
-  </data>
-  <data name="&gt;&gt;panelAdmin.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblAdminEmail.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblAdminName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblAdminEmail.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt, style=Italic</value>
+  <data name="&gt;&gt;btnManageAccount.Parent" xml:space="preserve">
+    <value>panelSideBar</value>
   </data>
-  <data name="lblAdminEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 48</value>
+  <data name="btnLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 283</value>
   </data>
-  <data name="lblAdminEmail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblAdminEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 18</value>
-  </data>
-  <data name="lblAdminEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="lblAdminEmail.Text" xml:space="preserve">
-    <value>admin@gmail.com</value>
-  </data>
-  <data name="&gt;&gt;lblAdminEmail.Name" xml:space="preserve">
-    <value>lblAdminEmail</value>
-  </data>
-  <data name="&gt;&gt;lblAdminEmail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblAdminEmail.Parent" xml:space="preserve">
     <value>panelAdmin</value>
   </data>
-  <data name="&gt;&gt;lblAdminEmail.ZOrder" xml:space="preserve">
+  <data name="lblLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="&gt;&gt;panelAdmin.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lblAdminName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblAdminEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 15</value>
   </data>
-  <data name="lblAdminName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="lblAdminName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 18</value>
-  </data>
-  <data name="lblAdminName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblAdminName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 29</value>
-  </data>
-  <data name="lblAdminName.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="lblAdminName.Text" xml:space="preserve">
-    <value>Username</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.Name" xml:space="preserve">
-    <value>lblAdminName</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAdminName.Parent" xml:space="preserve">
-    <value>panelAdmin</value>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>btnManageTable</value>
   </data>
   <data name="&gt;&gt;lblAdminName.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="btnLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 64</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnLogout.Name" xml:space="preserve">
+    <value>btnLogout</value>
+  </data>
+  <data name="lblAdminEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="panelContent.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="btnManageAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="picBoxAdmin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -927,423 +1071,122 @@
         eT8flZ9/YPP+14/jptF8XM3Hd4n6IUuSpJH0//7f/wf8rQ9MMCztbgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picBoxAdmin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 23</value>
-  </data>
-  <data name="picBoxAdmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="picBoxAdmin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 39</value>
-  </data>
-  <data name="picBoxAdmin.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="picBoxAdmin.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;picBoxAdmin.Name" xml:space="preserve">
-    <value>picBoxAdmin</value>
-  </data>
-  <data name="&gt;&gt;picBoxAdmin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picBoxAdmin.Parent" xml:space="preserve">
-    <value>panelAdmin</value>
-  </data>
-  <data name="&gt;&gt;picBoxAdmin.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="panelNavBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panelNavBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panelNavBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="panelNavBar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>16, 15, 16, 15</value>
-  </data>
-  <data name="panelNavBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 116</value>
-  </data>
-  <data name="panelNavBar.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;panelNavBar.Name" xml:space="preserve">
-    <value>panelNavBar</value>
-  </data>
-  <data name="&gt;&gt;panelNavBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
   </data>
   <data name="&gt;&gt;panelNavBar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panelNavBar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnManageMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
-    <value>pictureBox3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
-    <value>btnManageMenu</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.Name" xml:space="preserve">
-    <value>lblManageMenu</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.Parent" xml:space="preserve">
-    <value>btnManageMenu</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnManageMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 98</value>
-  </data>
-  <data name="btnManageMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnManageMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnManageMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 74</value>
-  </data>
-  <data name="btnManageMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnManageMenu.Name" xml:space="preserve">
-    <value>btnManageMenu</value>
-  </data>
-  <data name="&gt;&gt;btnManageMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnManageMenu.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnLogout.Parent" xml:space="preserve">
     <value>panelSideBar</value>
   </data>
-  <data name="&gt;&gt;btnManageMenu.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMySURBVFhHzZdZ
-        qE1RGMePWTJmePBmejFEUZQXmd+IiAyhcMtUhkwPpjyZp0yZSlEUReZSHuRByjyFFIlMiczD77fX2afj
-        dM9pn32vm3/9ut/e+7TXf33rW99eN4MeQmdYmcXYe+oiDA5htao2LIOnXvyGfrAvi7H31BOYFMJqUx04
-        AL8gGqemDayGT7AEatxAH/gJwyE3TjkG2kAFHIE78AqewRU4BOOgGRTTJTgewvINzIXP8Bb2w1KYAONh
-        Priur+ELrIHmkK/u4Hu7RVcpDAyBUdAwuqpcFthIeABmx3fFsupvhzDSXwZOwP0sxt7bCR+gsAY6gQV0
-        Fm5mMV4MHUHVgw3wFcZ4A52EzSGMlDPwEc6DAxbyDZy1agF74Ac4qGmelWVt9p7PdkOcfutlYwgzt2BB
-        CCPlDNhs9hoUyB/4wnbgzEyrg/SHYhoApvkedPBGnh7D5BBGyhnoC6ZqO1jltcC0W1BbwZk7+BloDKo9
-        tIWJMNYbeWoCLokm8guxcEflDCgvnoNp7QI+WAF1wbQ7cwfX3HLQ8DzoDT2hUJowE7uiq6CSBtQxsHB6
-        gA90b8G5DHHaHdzCHBZdldZA+A7xUqQy4F6/Acq0+8Ikg8ey8BaFMJ0B191lUavgaggTax2cDmE6A85g
-        BqijsCWEieUWjTOYyoDFNxOU1d4rhIk1G66HMP0S2GTSyiU4FcLMXZgewkiJDNheXYa0cisuDGHmIJwD
-        t7JKZMAO6Da0w5WrQeCucfcoO+p72AGaSGRA2dudic0lqZqCKXewfHkgsY9MhcQG/Gtbtb0mMeFvTLUG
-        Kjuc+O2xoSU2oOxmmjATdrhiMu2elBw8Tv0UyG/XZRnwECLKa3u762phWuHuc7faetCcz/yMxzP33OA9
-        B4tVtgFbb32Iq9ds2F7tcPYJcatZ7fGsG4HvcnC/mPlKtQSe95zhCPALWUwNwAPMI3gJQ6FQqQy0gk3g
-        ofQFaGgO2B09mPrR8t478DfboDVUplQGYnk4mQY2FVOvGWdqfBjcXi2hlKpkoDr0/xqw410Gv/v+71aq
-        2Koi/6u6AG5jly8nt9c1eAM2j3+lruCOYvDM6D81+S/y0oxV2wAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 39</value>
-  </data>
-  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
-    <value>pictureBox3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
-    <value>btnManageMenu</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblManageMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="lblManageMenu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblManageMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 2</value>
-  </data>
-  <data name="lblManageMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblManageMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 70</value>
-  </data>
-  <data name="lblManageMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="lblManageMenu.Text" xml:space="preserve">
-    <value>Manage Menu</value>
-  </data>
-  <data name="lblManageMenu.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.Name" xml:space="preserve">
-    <value>lblManageMenu</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.Parent" xml:space="preserve">
-    <value>btnManageMenu</value>
-  </data>
-  <data name="&gt;&gt;lblManageMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panelContent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panelContent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 116</value>
-  </data>
-  <data name="panelContent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="panelContent.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>19, 17, 19, 17</value>
-  </data>
-  <data name="panelContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>752, 427</value>
-  </data>
-  <data name="panelContent.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;panelContent.Name" xml:space="preserve">
-    <value>panelContent</value>
-  </data>
-  <data name="&gt;&gt;panelContent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>btnManageAccount</value>
   </data>
   <data name="&gt;&gt;panelContent.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panelContent.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnManageTable.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMySURBVFhHzZdZ
-        qE1RGMePWTJmePBmejFEUZQXmd+IiAyhcMtUhkwPpjyZp0yZSlEUReZSHuRByjyFFIlMiczD77fX2afj
-        dM9pn32vm3/9ut/e+7TXf33rW99eN4MeQmdYmcXYe+oiDA5htao2LIOnXvyGfrAvi7H31BOYFMJqUx04
-        AL8gGqemDayGT7AEatxAH/gJwyE3TjkG2kAFHIE78AqewRU4BOOgGRTTJTgewvINzIXP8Bb2w1KYAONh
-        Priur+ELrIHmkK/u4Hu7RVcpDAyBUdAwuqpcFthIeABmx3fFsupvhzDSXwZOwP0sxt7bCR+gsAY6gQV0
-        Fm5mMV4MHUHVgw3wFcZ4A52EzSGMlDPwEc6DAxbyDZy1agF74Ac4qGmelWVt9p7PdkOcfutlYwgzt2BB
-        CCPlDNhs9hoUyB/4wnbgzEyrg/SHYhoApvkedPBGnh7D5BBGyhnoC6ZqO1jltcC0W1BbwZk7+BloDKo9
-        tIWJMNYbeWoCLokm8guxcEflDCgvnoNp7QI+WAF1wbQ7cwfX3HLQ8DzoDT2hUJowE7uiq6CSBtQxsHB6
-        gA90b8G5DHHaHdzCHBZdldZA+A7xUqQy4F6/Acq0+8Ikg8ey8BaFMJ0B191lUavgaggTax2cDmE6A85g
-        BqijsCWEieUWjTOYyoDFNxOU1d4rhIk1G66HMP0S2GTSyiU4FcLMXZgewkiJDNheXYa0cisuDGHmIJwD
-        t7JKZMAO6Da0w5WrQeCucfcoO+p72AGaSGRA2dudic0lqZqCKXewfHkgsY9MhcQG/Gtbtb0mMeFvTLUG
-        Kjuc+O2xoSU2oOxmmjATdrhiMu2elBw8Tv0UyG/XZRnwECLKa3u762phWuHuc7faetCcz/yMxzP33OA9
-        B4tVtgFbb32Iq9ds2F7tcPYJcatZ7fGsG4HvcnC/mPlKtQSe95zhCPALWUwNwAPMI3gJQ6FQqQy0gk3g
-        ofQFaGgO2B09mPrR8t478DfboDVUplQGYnk4mQY2FVOvGWdqfBjcXi2hlKpkoDr0/xqw410Gv/v+71aq
-        2Koi/6u6AG5jly8nt9c1eAM2j3+lruCOYvDM6D81+S/y0oxV2wAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="pictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 39</value>
-  </data>
-  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
-    <value>pictureBox4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
-    <value>btnManageTable</value>
-  </data>
-  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblManageTable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="lblManageTable.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblManageAccount.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="lblManageTable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblManageTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 2</value>
-  </data>
-  <data name="lblManageTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblManageTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 70</value>
-  </data>
-  <data name="lblManageTable.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="lblManageTable.Text" xml:space="preserve">
-    <value>Manage Table</value>
-  </data>
-  <data name="lblManageTable.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="lblLogout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;lblManageTable.Name" xml:space="preserve">
-    <value>lblManageTable</value>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
   </data>
-  <data name="&gt;&gt;lblManageTable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblManageTable.Parent" xml:space="preserve">
-    <value>btnManageTable</value>
-  </data>
-  <data name="&gt;&gt;lblManageTable.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnManageTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 180</value>
-  </data>
-  <data name="btnManageTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnManageTable.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnManageTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 74</value>
-  </data>
-  <data name="btnManageTable.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;btnManageTable.Name" xml:space="preserve">
-    <value>btnManageTable</value>
-  </data>
-  <data name="&gt;&gt;btnManageTable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnManageTable.Parent" xml:space="preserve">
-    <value>panelSideBar</value>
-  </data>
-  <data name="&gt;&gt;btnManageTable.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="lblAdminEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 39</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>btnLogout</value>
+  <data name="&gt;&gt;btnManageTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.Name" xml:space="preserve">
-    <value>lblLogout</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.Parent" xml:space="preserve">
-    <value>btnLogout</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnLogout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="btnLogout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 348</value>
-  </data>
-  <data name="btnLogout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnLogout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnLogout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 79</value>
-  </data>
-  <data name="btnLogout.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;btnLogout.Name" xml:space="preserve">
-    <value>btnLogout</value>
+  <data name="lblManageTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 56</value>
   </data>
   <data name="&gt;&gt;btnLogout.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnLogout.Parent" xml:space="preserve">
-    <value>panelSideBar</value>
+  <data name="&gt;&gt;btnManageTable.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;btnLogout.ZOrder" xml:space="preserve">
+  <data name="btnManageTable.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;btnManageMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblManageAccount.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panelSideBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;lblManageMenu.Parent" xml:space="preserve">
+    <value>btnManageMenu</value>
   </data>
-  <data name="panelSideBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 116</value>
+  <data name="&gt;&gt;lblAdminEmail.Name" xml:space="preserve">
+    <value>lblAdminEmail</value>
   </data>
-  <data name="panelSideBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="btnManageTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 60</value>
   </data>
-  <data name="panelSideBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 427</value>
+  <data name="lblManageTable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="panelSideBar.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="btnManageTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 146</value>
   </data>
-  <data name="&gt;&gt;panelSideBar.Name" xml:space="preserve">
-    <value>panelSideBar</value>
-  </data>
-  <data name="&gt;&gt;panelSideBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
   </data>
   <data name="&gt;&gt;panelSideBar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panelSideBar.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnLogout.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;panelContent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblManageTable.Parent" xml:space="preserve">
+    <value>btnManageTable</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>btnLogout</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;panelNavBar.Name" xml:space="preserve">
+    <value>panelNavBar</value>
+  </data>
+  <data name="btnManageAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 20</value>
+  </data>
+  <data name="btnLogout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panelSideBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 94</value>
+  </data>
+  <data name="panelAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 70</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1358,74 +1201,41 @@
         lsTLdOIM2j6BmqUfrjLWEzqQS/owj2PoT+wl9OKZUQqFX2olF5vHysSLAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 25</value>
+  <data name="lblAdminName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 24</value>
   </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="picBoxAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 19</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 39</value>
+  <data name="lblManageMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="lblManageMenu.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="lblManageTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 2</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+  <data name="btnManageAccount.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="lblAdminName.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblManageAccount.Parent" xml:space="preserve">
+    <value>btnManageAccount</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>btnLogout</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lblLogout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="picBoxAdmin.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="lblLogout.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="lblLogout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 2</value>
-  </data>
-  <data name="lblLogout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblLogout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 76</value>
-  </data>
-  <data name="lblLogout.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="lblLogout.Text" xml:space="preserve">
-    <value>Logout</value>
-  </data>
-  <data name="lblLogout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.Name" xml:space="preserve">
-    <value>lblLogout</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.Parent" xml:space="preserve">
-    <value>btnLogout</value>
-  </data>
-  <data name="&gt;&gt;lblLogout.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 543</value>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3272,16 +3082,55 @@
         AAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAA==
 </value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="panelNavBar.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;panelSideBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormNavigationAdmin</value>
+  <data name="&gt;&gt;btnManageMenu.Name" xml:space="preserve">
+    <value>btnManageMenu</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
   </data>
+  <data name="&gt;&gt;panelAdmin.Name" xml:space="preserve">
+    <value>panelAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnManageAccount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 94</value>
+  </data>
+  <data name="panelNavBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 94</value>
+  </data>
+  <data name="lblManageAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 56</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelSideBar.Name" xml:space="preserve">
+    <value>panelSideBar</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Name" xml:space="preserve">
+    <value>lblLogout</value>
+  </data>
+  <data name="&gt;&gt;panelContent.Name" xml:space="preserve">
+    <value>panelContent</value>
+  </data>
+  <data name="panelAdmin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblLogout.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="btnManageAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 60</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
