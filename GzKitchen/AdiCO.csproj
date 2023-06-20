@@ -48,7 +48,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>1.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -217,6 +218,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormManageAccount.resx">
       <DependentUpon>FormManageAccount.cs</DependentUpon>
@@ -229,6 +231,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationCashier.resx">
       <DependentUpon>FormNavigationCashier.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPayment.tr.resx">
       <DependentUpon>FormPayment.cs</DependentUpon>
@@ -271,7 +274,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.ico" />
     <Content Include="GzKitchenModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>GzKitchenModel.Context.cs</LastGenOutput>
@@ -282,6 +284,7 @@
       <DependentUpon>GzKitchenModel.edmx</DependentUpon>
       <LastGenOutput>GzKitchenModel.cs</LastGenOutput>
     </Content>
+    <Content Include="icon.ico" />
     <Content Include="Image\dinner-table.png" />
     <Content Include="Image\photo.png" />
   </ItemGroup>

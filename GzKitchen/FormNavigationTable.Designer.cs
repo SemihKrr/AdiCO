@@ -50,19 +50,19 @@
             // 
             // panelNavBar
             // 
+            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(83)))), ((int)(((byte)(32)))));
             this.panelNavBar.Controls.Add(this.panelCashier);
-            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.Name = "panelNavBar";
             // 
             // panelCashier
             // 
+            resources.ApplyResources(this.panelCashier, "panelCashier");
             this.panelCashier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
             this.panelCashier.Controls.Add(this.lblCashierEmail);
             this.panelCashier.Controls.Add(this.lblCashierName);
             this.panelCashier.Controls.Add(this.picBoxCashier);
             this.panelCashier.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.panelCashier, "panelCashier");
             this.panelCashier.Name = "panelCashier";
             // 
             // lblCashierEmail
@@ -83,19 +83,19 @@
             // 
             // picBoxCashier
             // 
-            this.picBoxCashier.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.picBoxCashier, "picBoxCashier");
+            this.picBoxCashier.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBoxCashier.Name = "picBoxCashier";
             this.picBoxCashier.TabStop = false;
             this.picBoxCashier.Click += new System.EventHandler(this.picBoxCashier_Click);
             // 
             // panelMenu
             // 
+            resources.ApplyResources(this.panelMenu, "panelMenu");
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
             this.panelMenu.Controls.Add(this.panelMenuList);
             this.panelMenu.Controls.Add(this.panelSearch);
             this.panelMenu.Controls.Add(this.lblMenuList);
-            resources.ApplyResources(this.panelMenu, "panelMenu");
             this.panelMenu.Name = "panelMenu";
             // 
             // panelMenuList
