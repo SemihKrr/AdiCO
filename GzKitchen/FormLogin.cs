@@ -22,6 +22,7 @@ namespace GzKitchen
         private void FormLogin_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+            //////
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
