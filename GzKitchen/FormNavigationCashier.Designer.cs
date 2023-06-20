@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNavigationCashier));
             this.panelNavBar = new System.Windows.Forms.Panel();
             this.panelCashier = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.lblCashierEmail = new System.Windows.Forms.Label();
             this.lblCashierName = new System.Windows.Forms.Label();
             this.picBoxCashier = new System.Windows.Forms.PictureBox();
@@ -76,15 +75,6 @@
             this.panelCashier.Cursor = System.Windows.Forms.Cursors.Default;
             resources.ApplyResources(this.panelCashier, "panelCashier");
             this.panelCashier.Name = "panelCashier";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblCashierEmail
             // 
@@ -200,8 +190,9 @@
             // 
             // button1
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.button1, "button1");
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);

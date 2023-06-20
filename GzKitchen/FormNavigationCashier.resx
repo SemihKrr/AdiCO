@@ -127,25 +127,26 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rgAAAK4B+ff3XQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGTSURBVFhH7ddN
-        K0RRAMbxieyUlyIvxcLG0gegbLFQSvkSKL4Edmz4CBLZSXYiG5JIdmxsbZAob//n5Mzc7pxz75npzp3S
-        PPVbnPty7jNz75zuFEgXjvCNnyp94haLaEJF2YVr0mqtoqK8QicOYRTrePzbZj1gDSNwpRmTeIe+jUEE
-        x14kGn2NrjK6TSvw5QA6btqMAuMqEI0tswF9QpUYhis70FyzZhSYtALR7EPHzphReWpeIO0CjQK+/ac4
-        R7cZxZJlgW1of/wZuYC236CsRJYF9GvZRJsZlaLV9ho69w69KCbLAknxlsirgOIskUWBZWgJtnOFekFx
-        EBJfgSXUtUBo4regB7kVcF5cybLAGLbQbkaleC+uZFmg7guRb/8JclmK0/Y70yjwrwrU5KU0Gl8BvZZP
-        4QNakgcQnC9o0hYzSs4VbGGfpNd2Z7Q46MRDzKEVviQVuMcCKv5rNo5n2InesAdXmaoespBorVZ7rVj2
-        lsTLdOIM2j6BmqUfrjLWEzqQS/owj2PoT+wl9OKZUQqFX2olF5vHysSLAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAALAAAACwARRqq2kAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAABk0lEQVRYR+3XTStEUQDG8YnslJciL8XCxtIHoGyxUEr5Eii+BHZs+AgS2Ul2IhuSSHZsbG2QKG//
+        5+TM3O6cc++Z6c6d0jz1W5z7cu4zc++c7hRIF47wjZ8qfeIWi2hCRdmFa9JqraKivEInDmEU63j822Y9
+        YA0jcKUZk3iHvo1BBMdeJBp9ja4yuk0r8OUAOm7ajALjKhCNLbMBfUKVGIYrO9Bcs2YUmLQC0exDx86Y
+        UXlqXiDtAo0Cvv2nOEe3GcWSZYFtaH/8GbmAtt+grESWBfRr2USbGZWi1fYaOvcOvSgmywJJ8ZbIq4Di
+        LJFFgWVoCbZzhXpBcRASX4El1LVAaOK3oAe5FXBeXMmywBi20G5GpXgvrmRZoO4LkW//CXJZitP2O9Mo
+        8K8K1OSlNBpfAb2WT+EDWpIHEJwvaNIWM0rOFWxhn6TXdme0OOjEQ8yhFb4kFbjHAir+azaOZ9iJ3rAH
+        V5mqHrKQaK1We61Y9pbEy3TiDNo+gZqlH64y1hM6kEv6MI9j6E/sJfTimVEKhV9qJRebx8rEiwAAAABJ
+        RU5ErkJggg==
 </value>
   </data>
   <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1058, 3</value>
+    <value>1053, 0</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
+    <value>73, 70</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.TabIndex" type="System.Int32, mscorlib">

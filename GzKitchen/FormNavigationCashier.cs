@@ -228,8 +228,7 @@ namespace GzKitchen
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form frm = new FormLogin();
-            frm.ShowDialog();
+            new FormLogin().Show();
         }
     }
 
