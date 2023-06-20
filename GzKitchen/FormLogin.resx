@@ -131,6 +131,9 @@
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>434, 411</value>
+  </data>
   <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
     <value>comboBox1</value>
   </data>
@@ -141,11 +144,8 @@
   <data name="panelLogin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtEmail.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="&gt;&gt;lblPassword.Name" xml:space="preserve">
+    <value>lblPassword</value>
   </data>
   <data name="panelLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>434, 219</value>
@@ -2034,6 +2034,9 @@
         AAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAA==
 </value>
   </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
   <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2046,17 +2049,20 @@
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 21</value>
   </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
   <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lblDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 113</value>
   </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="panelLogin.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2064,8 +2070,8 @@
   <data name="&gt;&gt;panelLogin.Name" xml:space="preserve">
     <value>panelLogin</value>
   </data>
-  <data name="&gt;&gt;lblPassword.Name" xml:space="preserve">
-    <value>lblPassword</value>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;lblHeader.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -2094,8 +2100,8 @@
   <data name="lblHeader.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
   </data>
-  <data name="comboBox1.Text" xml:space="preserve">
-    <value>Language</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 3</value>
   </data>
   <data name="btnLogin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt</value>
@@ -2124,9 +2130,6 @@
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 10</value>
-  </data>
   <data name="&gt;&gt;lblHeader.Name" xml:space="preserve">
     <value>lblHeader</value>
   </data>
@@ -2135,9 +2138,6 @@
   </data>
   <data name="lblHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
-  </data>
-  <data name="lblHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 64</value>
   </data>
   <data name="&gt;&gt;lblEmail.Name" xml:space="preserve">
     <value>lblEmail</value>
@@ -2154,23 +2154,29 @@
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
+  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;lblDesc.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 34</value>
   </data>
-  <data name="lblPassword.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 10</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 3</value>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="lblDesc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 113</value>
+  <data name="comboBox1.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
   <data name="txtPassword.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -2180,6 +2186,9 @@
   </data>
   <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="lblPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="panelLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 192</value>
@@ -2205,6 +2214,9 @@
   <data name="btnLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
   <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 59</value>
   </data>
@@ -2226,8 +2238,8 @@
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Türkçe</value>
   </data>
-  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2254,20 +2266,20 @@
   <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
   </data>
-  <data name="lblHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 34</value>
+  <data name="lblDesc.Text" xml:space="preserve">
+    <value>Restoran Otomasyonu</value>
   </data>
   <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
   </data>
-  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
-    <value>panelLogin</value>
+  <data name="lblHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 64</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lblEmail.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -2284,19 +2296,16 @@
   <data name="&gt;&gt;lblDesc.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="lblHeader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>434, 192</value>
   </data>
-  <data name="lblEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>tr</value>
-  </metadata>
+  </data>
 </root>
