@@ -14,7 +14,6 @@ namespace GzKitchen
     public partial class FormLogin : Form
     {
         private GzKitchenEntities db = new GzKitchenEntities();
-
         public FormLogin()
         {
             InitializeComponent();

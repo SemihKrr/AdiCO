@@ -126,10 +126,13 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="lblOrderedMenuSubtotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 0</value>
+    <value>352, 0</value>
+  </data>
+  <data name="lblOrderedMenuSubtotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOrderedMenuSubtotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 84</value>
+    <value>107, 103</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblOrderedMenuSubtotal.TabIndex" type="System.Int32, mscorlib">
@@ -160,10 +163,13 @@
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="lblOrderedMenuQty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 0</value>
+    <value>307, 0</value>
+  </data>
+  <data name="lblOrderedMenuQty.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOrderedMenuQty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 84</value>
+    <value>45, 103</value>
   </data>
   <data name="lblOrderedMenuQty.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -189,7 +195,7 @@
   <data name="picBoxOrderedMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
-        WwAAAVsBctYLjAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAP9SURBVHhe7dtN
+        WgAAAVoBoJHpaAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAP9SURBVHhe7dtN
         qFRlHMfxa/biSwZGqIRC5UJLRBTBBBcqLcqFRGClG8MQKQhfUDRF3JgIlq60hQkSlqtWau8R+AaSbjRc
         +IKRuzI0LUND8/uTrjznzO+cOXPnzjnPzNwffDaX/5l7njkzzznPy/SUmBdwBv/l+Bff4HF0VB7DWbhG
         O++io/IBXEOzLEDHZCpuI2zgj/jO0Md/HQahI/IwTiJs/GfommxA2PjfMQpdkQn4B+Eb8Aa6Ig/hCMLG
@@ -211,10 +217,13 @@
 </value>
   </data>
   <data name="picBoxOrderedMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>16, 15</value>
+  </data>
+  <data name="picBoxOrderedMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="picBoxOrderedMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
+    <value>85, 79</value>
   </data>
   <data name="picBoxOrderedMenu.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -241,13 +250,16 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="lblOrderedMenuPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 42</value>
+    <value>104, 52</value>
+  </data>
+  <data name="lblOrderedMenuPrice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOrderedMenuPrice.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 0, 0, 0</value>
+    <value>11, 0, 0, 0</value>
   </data>
   <data name="lblOrderedMenuPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 30</value>
+    <value>193, 37</value>
   </data>
   <data name="lblOrderedMenuPrice.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -274,13 +286,16 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="lblOrderedMenuName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 12</value>
+    <value>104, 15</value>
+  </data>
+  <data name="lblOrderedMenuName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOrderedMenuName.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 0, 0, 2</value>
+    <value>11, 0, 0, 2</value>
   </data>
   <data name="lblOrderedMenuName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 30</value>
+    <value>193, 37</value>
   </data>
   <data name="lblOrderedMenuName.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -313,13 +328,16 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 0</value>
+    <value>459, 0</value>
+  </data>
+  <data name="btnDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="btnDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 12, 12, 0</value>
+    <value>16, 15, 16, 0</value>
   </data>
   <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 28</value>
+    <value>53, 35</value>
   </data>
   <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -346,10 +364,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 84</value>
+    <value>512, 103</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>OrderedMenuLayout</value>
