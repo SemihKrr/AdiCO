@@ -55,7 +55,7 @@ namespace GzKitchen
                         else
                         {
                             this.Hide();
-                            new FormNavigationCashier()
+                            new FormNavigationTable()
                             {
                                 cashierID = account[0].ID
                             }.Show();

@@ -60,8 +60,8 @@
             // 
             // txtAddress
             // 
-            resources.ApplyResources(this.txtAddress, "txtAddress");
             this.txtAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.txtAddress, "txtAddress");
             this.txtAddress.Name = "txtAddress";
             // 
             // lblAddress
@@ -71,8 +71,8 @@
             // 
             // txtHandphone
             // 
-            resources.ApplyResources(this.txtHandphone, "txtHandphone");
             this.txtHandphone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.txtHandphone, "txtHandphone");
             this.txtHandphone.Name = "txtHandphone";
             // 
             // lblHandphone
@@ -82,8 +82,8 @@
             // 
             // txtPassword
             // 
-            resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -94,8 +94,8 @@
             // 
             // txtEmail
             // 
-            resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.Name = "txtEmail";
             // 
             // lblEmail
@@ -105,8 +105,8 @@
             // 
             // txtName
             // 
-            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
             // 
             // btnSave

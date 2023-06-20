@@ -86,12 +86,12 @@
             // 
             // panelAdmin
             // 
-            resources.ApplyResources(this.panelAdmin, "panelAdmin");
             this.panelAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(209)))), ((int)(((byte)(42)))));
             this.panelAdmin.Controls.Add(this.lblAdminEmail);
             this.panelAdmin.Controls.Add(this.lblAdminName);
             this.panelAdmin.Controls.Add(this.picBoxAdmin);
             this.panelAdmin.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.panelAdmin, "panelAdmin");
             this.panelAdmin.Name = "panelAdmin";
             // 
             // lblAdminEmail
@@ -112,17 +112,17 @@
             // 
             // picBoxAdmin
             // 
-            resources.ApplyResources(this.picBoxAdmin, "picBoxAdmin");
             this.picBoxAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.picBoxAdmin, "picBoxAdmin");
             this.picBoxAdmin.Name = "picBoxAdmin";
             this.picBoxAdmin.TabStop = false;
             this.picBoxAdmin.Click += new System.EventHandler(this.picBoxAdmin_Click);
             // 
             // panelNavBar
             // 
-            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(83)))), ((int)(((byte)(32)))));
             this.panelNavBar.Controls.Add(this.panelAdmin);
+            resources.ApplyResources(this.panelNavBar, "panelNavBar");
             this.panelNavBar.Name = "panelNavBar";
             // 
             // btnManageMenu
@@ -154,11 +154,11 @@
             // 
             // panelSideBar
             // 
-            resources.ApplyResources(this.panelSideBar, "panelSideBar");
             this.panelSideBar.Controls.Add(this.btnManageTable);
             this.panelSideBar.Controls.Add(this.btnLogout);
             this.panelSideBar.Controls.Add(this.btnManageAccount);
             this.panelSideBar.Controls.Add(this.btnManageMenu);
+            resources.ApplyResources(this.panelSideBar, "panelSideBar");
             this.panelSideBar.Name = "panelSideBar";
             // 
             // btnManageTable
@@ -184,10 +184,10 @@
             // 
             // btnLogout
             // 
-            resources.ApplyResources(this.btnLogout, "btnLogout");
             this.btnLogout.Controls.Add(this.pictureBox1);
             this.btnLogout.Controls.Add(this.lblLogout);
             this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnLogout, "btnLogout");
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Tag = "btnSideBar-NotSelected";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
