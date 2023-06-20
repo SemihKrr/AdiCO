@@ -85,6 +85,12 @@
     <Compile Include="FormManageTable.Designer.cs">
       <DependentUpon>FormManageTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNavigationTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNavigationTable.Designer.cs">
+      <DependentUpon>FormNavigationTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormNavigationChef.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +195,12 @@
     <EmbeddedResource Include="FormNavigationAdmin.tr.resx">
       <DependentUpon>FormNavigationAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormNavigationTable.resx">
+      <DependentUpon>FormNavigationTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNavigationTable.tr.resx">
+      <DependentUpon>FormNavigationTable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormNavigationCashier.tr.resx">
       <DependentUpon>FormNavigationCashier.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +282,8 @@
       <DependentUpon>GzKitchenModel.edmx</DependentUpon>
       <LastGenOutput>GzKitchenModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Image\dinner-table.png" />
+    <Content Include="Image\photo.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
